@@ -1,0 +1,27 @@
+{
+  "name": "light-plus-noctis",
+  "displayName": "light-plus-noctis",
+  "description": "Combination of default light+ UI theme and noctis token colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "publisher": "saicharanmalineni",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/path/to-repo.git"
+  },
+  "icon": "",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Noctis Light+",
+        "uiTheme": "vs",
+        "path": "./themes/Noctis Light+-color-theme.json"
+      }
+    ]
+  }
+}
